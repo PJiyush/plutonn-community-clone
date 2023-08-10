@@ -1,6 +1,29 @@
 .completeNav{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   font-size: 2rem;
+}
+
+.inLeftPart{
+  background-color: purple;
+  height: 90vh;
+  width: 18rem;
+}
+.inRightPart{
+  background-color: green;
+  height: 90vh;
+  width: 23rem;
+}
+.inCenterPart{
+  background-color: yellow;
+  height: 90vh;
+  width: 46rem;
+}
+
+.divisions{
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  /* justify-content: space-between; */
 }
