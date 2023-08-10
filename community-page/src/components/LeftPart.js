@@ -1,8 +1,11 @@
 import React from 'react'
+import ProfileCard from './ProfileCard'
 
 function LeftPart() {
   return (
-    <div className='inLeftPart'>Left Part</div>
+    <div className='inLeftPart'>
+        <div className='profileSection'><ProfileCard/></div>
+    </div>
   )
 }
 

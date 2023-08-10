@@ -27,3 +27,83 @@
   margin-top: 2rem;
   /* justify-content: space-between; */
 }
+
+.inProfile{
+  background-color: white;
+  border-radius: 8px;
+  height: 16rem;
+  width: 16rem;
+  margin: auto;
+}
+
+.profileSection{
+  padding-top: 5rem;
+}
+
+.profileImage{
+  width: 6rem;
+  height: 6rem;
+  background-color: pink;
+  margin: auto;
+  z-index: 10;
+  overflow-y: visible;
+  top: -2rem;
+  position: relative;
+  border-radius: 50%;
+}
+
+.follo{
+  display: block;
+}
+
+.follo-following{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -4rem;
+}
+
+.profileName{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+  top: -3rem;
+}
+
+.profileID{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-weight: 200;
+  position: relative;
+  top: -3rem;
+}
+
+.folloNum{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileBio{
+  height: 4rem;
+  width: 12rem;
+  /* border: 2px solid black; */
+  margin: auto;
+  position: relative;
+  top: -2rem;
+}
+
+.profileBtn{
+  height: 3rem;
+  width: 8rem;
+  background-color: pink;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -1.5rem;
+  border-radius: 5px;
+}
