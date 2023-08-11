@@ -7,17 +7,17 @@
 
 .inLeftPart{
   background-color: purple;
-  height: 90vh;
+  height: 100%;
   width: 18rem;
 }
 .inRightPart{
   background-color: green;
-  height: 90vh;
+  height: 100%;
   width: 23rem;
 }
 .inCenterPart{
   background-color: yellow;
-  height: 90vh;
+  height: 100%;
   width: 46rem;
 }
 
@@ -134,4 +134,43 @@
 
 .inlinkSection:hover{
   color: red;
+}
+
+.popularFollowingSection{
+  margin-top: 2rem;
+}
+
+.innPopularFollowingSection{
+  background-color: white;
+  width: 16rem;
+  margin: auto;
+  border-radius: 8px;
+}
+.innPeopleSection{
+  display: flex;
+  padding-top: 1rem;
+  justify-content:space-between ;
+}
+
+.forid{
+  font-weight: 50;
+}
+
+.forname{
+  font-weight: 600;
+}
+
+.folloBtn{
+  border: none;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+.fornameid{
+  cursor: pointer;
+}
+
+.forimage{
+  cursor: pointer;
 }
