@@ -227,7 +227,6 @@
   height: 4rem;
   border-radius: 50%;
   margin-left: 0.4rem;
-
 }
 
 .formSectionCenter .inputTaking{
@@ -239,4 +238,27 @@
   border-radius: 0.2rem;
 }
 
+.innPostSection{
+  width: 45rem;
+  margin: auto;
+  background-color: whitesmoke;
+  height: 100%;
+}
 
+.innPosts{
+  background-color: wheat;
+  width: 42rem;
+  height: 100%;
+  margin: auto;
+}
+
+.innPosts .innPeopleSection{
+  position: relative;
+  top: -0.5rem;
+}
+
+.ImportantIcons{
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
