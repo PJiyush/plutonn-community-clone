@@ -1,8 +1,9 @@
 import React from 'react'
+import RightInput from './RightSide/RightInput'
 
 function RightPart() {
   return (
-    <div className='inRightPart'>RightPart</div>
+    <div className='inRightPart'><RightInput/></div>
   )
 }
 
