@@ -1,25 +1,16 @@
+/*! for Navigation Part */
 .completeNav{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   font-size: 2rem;
+  gap: 28rem;
+  margin-left: 4rem;
 }
 
-.inLeftPart{
-  background-color: purple;
-  height: 100%;
-  width: 18rem;
-}
-.inRightPart{
-  background-color: green;
-  height: 100%;
-  width: 23rem;
-}
-.inCenterPart{
-  background-color: yellow;
-  height: 100%;
-  width: 46rem;
-}
+/*  */
+
+/* Page Divisions */
 
 .divisions{
   display: flex;
@@ -27,6 +18,49 @@
   margin-top: 2rem;
   /* justify-content: space-between; */
 }
+
+
+
+
+.inLeftPart{
+  background-color: purple;
+  width: 18rem;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.inLeftPart::-webkit-scrollbar{
+  display: none;
+}
+
+.inRightPart{
+  background-color: green;
+  height: 90vh;
+  overflow: scroll;
+  width: 23rem;
+}
+
+.inRightPart::-webkit-scrollbar{
+  display: none;
+}
+
+.inCenterPart{
+  background-color: yellow;
+  height: 90vh;
+  overflow: scroll;
+  width: 46rem;
+}
+
+.inCenterPart::-webkit-scrollbar{
+  display: none;
+}
+
+/*  */
+
+
+
+/* Left Side Started */
+
 
 .inProfile{
   background-color: white;
@@ -175,15 +209,26 @@
   cursor: pointer;
 }
 
+
+
+
+
+/* For Center Part */
+
 .innNavigationCenter{
   background-color: white;
   margin: auto;
-  width: 45rem;
+  width: 96%;
   border-radius: 0.5rem;
+  margin-top: -2.2rem;
+  
 }
 
 .NavigationCenter{
   padding-top: 2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .currCommunity{
@@ -239,7 +284,7 @@
 }
 
 .innPostSection{
-  width: 45rem;
+  width: 90%;
   margin: auto;
   background-color: whitesmoke;
   height: 100%;
@@ -247,7 +292,7 @@
 
 .innPosts{
   background-color: wheat;
-  width: 42rem;
+  width: 90%;
   height: 100%;
   margin: auto;
 }
@@ -263,6 +308,13 @@
   gap: 2rem;
 }
 
+
+
+
+
+
+
+/* For right Part */
 .InputSection{
   display: flex;
   justify-content: center;
@@ -276,3 +328,58 @@
   border: 2px solid gray;
 }
 
+
+
+
+/*  */
+
+
+/* For Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .inRightPart {
+      display: none;
+  }
+  .completeNav{
+    gap: 15rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    justify-content: flex-end;
+  }
+  .divisions{
+    margin-left: 0.5rem;
+  }
+  .inCenterPart{
+    width: 38rem;
+  }
+  
+}
+
+/* for mobiles */
+@media (max-width: 480px) {
+  .completeNav{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  .pageHeadline{
+    display: none;
+  }
+  .rightSide{
+    display: none;
+  }
+  .divisions{
+    margin-left: 0.5rem;
+  }
+  .inLeftPart{
+    display: none;
+  }
+  .inRightPart{
+    display: none;
+  }
+  .inCenterPart{
+    width: 24rem;
+  }
+}
+
+
+/*  */

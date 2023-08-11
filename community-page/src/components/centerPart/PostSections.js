@@ -5,6 +5,7 @@ function PostSections() {
   return (
     <div className='innPostSection'>
         <Posts/>
+        <Posts/>
     </div>
   )
 }

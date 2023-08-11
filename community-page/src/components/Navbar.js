@@ -11,6 +11,7 @@ function Navbar() {
         <div className='pageHeadline'> Community - Posts </div> 
         <div className='rightSide' >Profile</div>
     </div>
+    <hr/>
     </>
   )
 }
