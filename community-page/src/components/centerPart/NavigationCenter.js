@@ -13,7 +13,17 @@ function NavigationCenter() {
                 <button>Leave</button>
             </div>
         </div>
-        
+        <hr />
+        <div className="ButtonsForCenterNavigation">
+            <div className="PostsButtons">Posts</div>
+            <div className="AnnouncementsButtons">Announcements</div>
+        </div>
+        <hr />
+        <div className="formSectionCenter">
+            <div className="prf"></div>
+            <input className="inputTaking" type="text" placeholder='What is in your mind' />
+        </div>
+        <hr />
     </div>
   )
 }

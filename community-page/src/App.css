@@ -179,6 +179,7 @@
   background-color: white;
   margin: auto;
   width: 45rem;
+  border-radius: 0.5rem;
 }
 
 .NavigationCenter{
@@ -190,11 +191,52 @@
   justify-content: space-between;
 }
 
-.currCommunity> .forNameAndMember{
+.currCommunity .forNameAndMember{
   margin-left: -20rem;
 }
 
-.innNavigationCenter> br{
-  background-color: black;
-  color: black;
+.ButtonsForCenterNavigation{
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 2rem ; */
+  /* background-color: red; */
+  padding-top: .3rem;
+  padding-bottom: .4rem;
+  align-items: center;
+  font-size: 2rem;
 }
+
+.PostsButtons:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.AnnouncementsButtons:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.formSectionCenter{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.formSectionCenter .prf{
+  background-color: red;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+
+}
+
+.formSectionCenter .inputTaking{
+  width: 38rem;
+  margin-left: 1.5rem;
+  position: relative;
+  padding-bottom: 2rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+
