@@ -107,3 +107,31 @@
   top: -1.5rem;
   border-radius: 5px;
 }
+
+.importantLinks{
+  margin-top: 2rem;
+}
+
+
+.innImportantLiks{
+  background-color: white;
+  border-radius: 8px;
+  height: 13rem;
+  width: 16rem;
+  margin: auto;
+}
+
+.linkSection{
+  padding-top: 2.5rem;
+  /* height: 10rem; */
+}
+
+.inlinkSection{
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.inlinkSection:hover{
+  color: red;
+}
