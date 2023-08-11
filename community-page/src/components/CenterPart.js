@@ -1,8 +1,12 @@
 import React from 'react'
+import NavigationCenter from './centerPart/NavigationCenter'
 
 function CenterPart() {
   return (
-    <div className='inCenterPart'>CenterPart</div>
+    <div className='inCenterPart'>
+      <div className="NavigationCenter"><NavigationCenter/></div>
+      
+    </div>
   )
 }
 

@@ -174,3 +174,27 @@
 .forimage{
   cursor: pointer;
 }
+
+.innNavigationCenter{
+  background-color: white;
+  margin: auto;
+  width: 45rem;
+}
+
+.NavigationCenter{
+  padding-top: 2rem;
+}
+
+.currCommunity{
+  display: flex;
+  justify-content: space-between;
+}
+
+.currCommunity> .forNameAndMember{
+  margin-left: -20rem;
+}
+
+.innNavigationCenter> br{
+  background-color: black;
+  color: black;
+}
