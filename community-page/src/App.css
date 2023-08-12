@@ -293,11 +293,13 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   background-color: transparent;
   color: #F45046;
   cursor: pointer;
+  position: relative;
+  left: -1rem;
 }
 
 .fornameid{
   cursor: pointer;
-  margin-left: 0.7rem;
+  margin-left: 1.7rem;
 }
 
 .forimage{
@@ -493,6 +495,10 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 .foot_link{
   text-decoration: solid;
   color: red;
+}
+
+.innPopularFollowingSection .peopleSection .innPeopleSection .fornameid{
+  margin-left: -1.3rem;
 }
 
 
