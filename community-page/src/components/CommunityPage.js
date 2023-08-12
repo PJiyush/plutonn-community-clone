@@ -35,7 +35,11 @@ function CommunityPage() {
     <div className='navDiv'><Navbar theme={mystyle} /> 
        <button onClick={toggleStyle} >{btnTxt}</button>
     </div>
-    <div className='divisions' >
+    <div className='divisions' style={{
+      position: 'relative',
+      top: '-4rem',
+      height: '100%',
+    }} >
       <div className='leftPart' > <LeftPart theme={mystyle} /> </div>
       <div className='centerPart' ><CenterPart theme={mystyle} /></div>
       <div className='rightPart' ><RightPart theme={mystyle} /></div>

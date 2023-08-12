@@ -1,4 +1,6 @@
 /*! for Navigation Part */
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 .completeNav{
   display: flex;
   /* justify-content: space-between; */
@@ -80,7 +82,7 @@
 
 .inRightPart{
   background-color: green;
-  height: 90vh;
+  height: 100vh;
   overflow: scroll;
   width: 23rem;
 }
@@ -124,7 +126,7 @@
 .profileImage{
   width: 6rem;
   height: 6rem;
-  background-color: pink;
+  background-color: #F45046;
   margin: auto;
   z-index: 10;
   overflow-y: visible;
@@ -186,7 +188,7 @@
 .profileBtn{
   height: 3rem;
   width: 8rem;
-  background-color: pink;
+  background-color: #F45046;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -214,7 +216,7 @@
 }
 
 .forButtons button:hover{
-  color: red;
+  color: #F45046;
   background-color: rgba(236, 231, 231, 0.596);
 }
 
@@ -246,7 +248,7 @@
 
 
 .inlinkSection:hover{
-  color: red;
+  color: #F45046;
 }
 
 .popularFollowingSection{
@@ -289,7 +291,7 @@
 .folloBtn{
   border: none;
   background-color: transparent;
-  color: red;
+  color: #F45046;
   cursor: pointer;
 }
 
@@ -312,10 +314,6 @@
   height: 3.5rem;
   box-shadow:  0.1em 0.1em 1em rgba(0, 0, 0, 0.3)
 }
-
-
-
-
 
 /* For Center Part */
 
@@ -379,12 +377,14 @@
 }
 
 .PostsButtons:hover{
-  color: red;
+  color: #F45046;
   cursor: pointer;
 }
 
+
+
 .AnnouncementsButtons:hover{
-  color: red;
+  color: #F45046;
   cursor: pointer;
 }
 
@@ -394,7 +394,7 @@
 }
 
 .formSectionCenter .prf{
-  background-color: red;
+  background-color: #F45046;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -456,8 +456,7 @@
 }
 
 .txtRight{
-  display: flex;
-  justify-content: flex-start;
+  display: block;
   /* padding-top: 1rem; */
   font-size: 1rem;
   padding-left: 1.4rem;
@@ -523,6 +522,19 @@
   }
   .currCommunity .forNameAndMember{
     margin-left: -6rem;
+  }
+  .PostsButtons{
+    font-size: 1.5rem;
+  }
+  .AnnouncementsButtons{
+    font-size: 1.5rem;
+  }
+  .ContentImage img{
+    height: 12rem;
+    width: auto;
+    border-radius: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
