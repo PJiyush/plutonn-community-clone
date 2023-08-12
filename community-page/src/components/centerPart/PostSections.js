@@ -1,11 +1,11 @@
 import React from 'react'
 import Posts from './Posts'
 
-function PostSections() {
+function PostSections(props) {
   return (
-    <div className='innPostSection'>
-        <Posts/>
-        <Posts/>
+    <div className='innPostSection' style={props.theme.theme} >
+        <Posts theme={props}/>
+        <Posts theme={props}/>
     </div>
   )
 }

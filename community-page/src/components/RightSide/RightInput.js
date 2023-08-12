@@ -1,9 +1,9 @@
 import React from 'react'
 
-function RightInput() {
+function RightInput(props) {
   return (
     <>
-    <div className='InputSection' >
+    <div className='InputSection' style={props.theme.theme}>
         <input type="text" name="" id="" className='inputPart' placeholder='Search Joined Communities' />
     </div>
     </>

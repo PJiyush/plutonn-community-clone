@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ProfileCard() {
+function ProfileCard(props) {
   return (
-    <div className='inProfile'>
+    <div className='inProfile' style={props.theme.theme} >
     <div className="profileImage"></div>
     <div className="contents">
       <div className="follo-following">

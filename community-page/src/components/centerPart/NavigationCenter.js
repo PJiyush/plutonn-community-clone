@@ -1,8 +1,8 @@
 import React from 'react'
 
-function NavigationCenter() {
+function NavigationCenter(props) {
   return (
-    <div className="innNavigationCenter">
+    <div className="innNavigationCenter" style={props.theme.theme} >
         <div className="currCommunity">
             <div className="forImg">Image</div>
             <div className="forNameAndMember">

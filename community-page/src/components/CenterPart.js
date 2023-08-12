@@ -2,11 +2,11 @@ import React from 'react'
 import NavigationCenter from './centerPart/NavigationCenter'
 import PostSections from './centerPart/PostSections'
 
-function CenterPart() {
+function CenterPart(props) {
   return (
-    <div className='inCenterPart'>
-      <div className="NavigationCenter"><NavigationCenter/></div>
-      <div className="postsection"><PostSections/></div>
+    <div className='inCenterPart' style={props.theme} >
+      <div className="NavigationCenter"><NavigationCenter theme={props} /></div>
+      <div className="postsection"><PostSections theme={props} /></div>
     </div>
   )
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import RightInput from './RightSide/RightInput'
 
-function RightPart() {
+function RightPart(props) {
   return (
-    <div className='inRightPart'><RightInput/></div>
+    <div className='inRightPart' style={props.theme} ><RightInput theme={props} /></div>
   )
 }
 

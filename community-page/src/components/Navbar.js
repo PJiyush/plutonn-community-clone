@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Navbar() {
+function Navbar(props) {
   return (
     <>
-    <div className='completeNav'>
+    <div className='completeNav' style={props.theme}>
         <div className='logo' >
             <img src="" alt="" />
             Plutonn

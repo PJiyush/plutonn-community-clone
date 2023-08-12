@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Posts() {
+function Posts(props) {
   return (
-    <div className='innPosts' >
+    <div className='innPosts' style={props.theme.theme.theme} >
         <div className="innPeopleSection">
             <div className="fornameid">
                 <div className="forid">nfeknf</div>

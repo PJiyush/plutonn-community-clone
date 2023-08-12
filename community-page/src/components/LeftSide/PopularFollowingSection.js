@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PopularFollowingSection() {
+function PopularFollowingSection(props) {
     const data=[
         {"image":"","id":"absc@123","name":"Piyush Jhamnani"},
         {"image":"","id":"absc@123","name":"Piyush Jhamnani"},
@@ -15,7 +15,7 @@ function PopularFollowingSection() {
         {"image":"","id":"absc@123","name":"Piyush Jhamnani"}
     ]
   return (
-    <div className='innPopularFollowingSection' >
+    <div className='innPopularFollowingSection' style={props.theme.theme} >
         <div className="peopleSection">
             {data.map((people)=>(
                 <div className="innPeopleSection">
@@ -24,7 +24,7 @@ function PopularFollowingSection() {
                         <div className="forid">{people.id}</div>
                         <div className="forname">{people.name}</div>
                     </div>
-                    <button className='folloBtn' >Follow</button>
+                    <button className='folloBtn' style={props.theme.theme} >Follow</button>
                 </div>
             ))}
         </div>

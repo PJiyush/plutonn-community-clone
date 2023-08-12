@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ImportantLinks() {
+function ImportantLinks(props) {
   const ImpLinks=[
     {"name":"Home", "pth":"/home"},
     {"name":"Community","pth":"/community"},
@@ -9,7 +9,7 @@ function ImportantLinks() {
     {"name":"Courses","pth":"/ciurses"},
   ]
   return (
-    <div className='innImportantLiks' >
+    <div className='innImportantLiks' style={props.theme.theme} >
       <div className='linkSection' >
         {ImpLinks.map((link)=>(
           <div className='inlinkSection'>
