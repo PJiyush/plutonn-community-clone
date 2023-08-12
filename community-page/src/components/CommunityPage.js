@@ -4,6 +4,7 @@ import LeftPart from './LeftPart'
 import CenterPart from './CenterPart'
 import RightPart from './RightPart'
 import { useState } from 'react'
+import Footer from './Footer'
 
 function CommunityPage() {
   const [mystyle, setStyle] = useState({
@@ -44,6 +45,7 @@ function CommunityPage() {
       <div className='centerPart' ><CenterPart theme={mystyle} /></div>
       <div className='rightPart' ><RightPart theme={mystyle} /></div>
     </div>
+    <div className='foot' ><Footer theme={mystyle} /></div>
     </div>
   )
 }
