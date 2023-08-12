@@ -1,20 +1,21 @@
 // import logo from './logo.svg';
 import './App.css';
-import CenterPart from './components/CenterPart';
-import LeftPart from './components/LeftPart';
-import Navbar from './components/Navbar';
-import RightPart from './components/RightPart';
+import CommunityPage from './components/CommunityPage';
+import HomePage from './components/HomePage';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import SearchPage from './components/SearchPage';
 
 function App() {
   return (
-    <>
-    <div className='navDiv'><Navbar/></div>
-    <div className='divisions'>
-      <div className='leftPart' > <LeftPart/> </div>
-      <div className='centerPart' ><CenterPart/></div>
-      <div className='rightPart' ><RightPart/></div>
-    </div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<CommunityPage/>} />
+        <Route exact path='/home' element={<HomePage/>} />
+        <Route exact path='/community' element={<CommunityPage/>} />
+        <Route exact path='/searchPage' element={<SearchPage/>}/>
+        <Route exact path='/courses' element={<SearchPage/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
