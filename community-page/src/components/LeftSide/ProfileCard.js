@@ -1,9 +1,11 @@
 import React from 'react'
-
+import image2 from '../images/pexels-min-an-1153334.jpg'
 function ProfileCard(props) {
   return (
     <div className='inProfile' style={props.theme.theme} >
-    <div className="profileImage"></div>
+    <div className="profileImage">
+      <img src={image2} alt="" />
+    </div>
     <div className="contents">
       <div className="follo-following">
         <div className="follo">

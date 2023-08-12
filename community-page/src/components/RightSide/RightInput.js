@@ -6,6 +6,8 @@ function RightInput(props) {
     <div className='InputSection' style={props.theme.theme}>
         <input type="text" name="" id="" className='inputPart' placeholder='Search Joined Communities' />
     </div>
+    <div className="txtRight">Joined Communities</div>
+    
     </>
   )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
+import image3 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-chloe-1043471.jpg'
 
 function Posts(props) {
   return (
     <div className='innPosts' style={props.theme.theme.theme} >
         <div className="innPeopleSection">
+            <img src={image3} alt="" />
             <div className="fornameid">
                 <div className="forid">nfeknf</div>
                 <div className="forname">Piyush</div>
