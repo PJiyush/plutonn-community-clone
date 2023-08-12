@@ -1,6 +1,7 @@
 import React from 'react'
 import image5 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-jacob-colvin-1761279.jpg'
 import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
+import AddIcon from '@mui/icons-material/Add';
 
 function NavigationCenter(props) {
   return (
@@ -13,8 +14,8 @@ function NavigationCenter(props) {
                 <div className="nameOfComm">DSA Community</div>
                 <div className="membersInComm">162 Members</div>
             </div>
-            <div className="forButtons">
-                <button>Leave</button>
+            <div className="forButtons" style={props.theme.theme} >
+                <button> <AddIcon fontSize='small'/>  Join</button>
             </div>
         </div>
         <hr />

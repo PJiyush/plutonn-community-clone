@@ -2,6 +2,7 @@ import React from 'react'
 import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
 import image3 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-chloe-1043471.jpg'
 import image4 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-davide-de-giovanni-2340978.jpg'
+import AddIcon from '@mui/icons-material/Add';
 
 function PopularFollowingSection(props) {
     const data=[
@@ -23,7 +24,7 @@ function PopularFollowingSection(props) {
                         <div className="forid">{people.id}</div>
                         <div className="forname">{people.name}</div>
                     </div>
-                    <button className='folloBtn' style={props.theme.theme} >Follow</button>
+                    <button className='folloBtn' style={props.theme.theme}> <AddIcon fontSize='small'/> Follow</button>
                 </div>
             ))}
         </div>

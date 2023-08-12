@@ -7,29 +7,33 @@ import { useState } from 'react'
 
 function CommunityPage() {
   const [mystyle, setStyle] = useState({
-    color: 'black',
+    color: '#353839',
     backgroundColor: 'white'
   })
 
   const toggleStyle = () => {
-    if (mystyle.color === 'black') {
+    if (mystyle.color === '#353839') {
       setStyle({
         color: 'white',
-        backgroundColor: 'black'
+        backgroundColor: '#03001C'
 
       })
+      setBtnTxt('light')
     } else {
       setStyle({
-        color: 'black',
+        color: '#353839',
         backgroundColor: 'white'
       })
+      setBtnTxt('Dark')
     }
   }
+
+  const [btnTxt, setBtnTxt] = useState('Dark')
 
   return (
     <div style={mystyle}>
     <div className='navDiv'><Navbar theme={mystyle} /> 
-       <button onClick={toggleStyle} >{mystyle.color}</button>
+       <button onClick={toggleStyle} >{btnTxt}</button>
     </div>
     <div className='divisions' >
       <div className='leftPart' > <LeftPart theme={mystyle} /> </div>

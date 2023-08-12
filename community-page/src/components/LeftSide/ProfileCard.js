@@ -1,5 +1,6 @@
 import React from 'react'
-import image2 from '../images/pexels-min-an-1153334.jpg'
+import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
+import SendIcon from '@mui/icons-material/Send';
 function ProfileCard(props) {
   return (
     <div className='inProfile' style={props.theme.theme} >
@@ -21,7 +22,9 @@ function ProfileCard(props) {
       <div className="profileID">@thisispiyu12_gmail_com810</div>
       <div className="profileBio">Add a unique bio for your profile</div>
     </div>
-    <div className="profileBtn">Post</div>
+    <div className="profileBtn">
+      <SendIcon fontSize='large'className='postIcon' />
+      Post</div>
     </div>
   )
 }

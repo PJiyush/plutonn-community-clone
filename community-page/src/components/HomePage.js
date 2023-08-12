@@ -1,8 +1,10 @@
 import React from 'react'
-
+import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <div>
+      <NotificationsNoneOutlinedIcon />
+    </div>
   )
 }
 

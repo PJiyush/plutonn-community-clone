@@ -1,14 +1,18 @@
 import React from 'react'
 import image3 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-chloe-1043471.jpg'
-
+import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
+import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
+import ShareIcon from '@mui/icons-material/Share';
 function Posts(props) {
   return (
     <div className='innPosts' style={props.theme.theme.theme} >
         <div className="innPeopleSection">
-            <img src={image3} alt="" />
-            <div className="fornameid">
-                <div className="forid">nfeknf</div>
-                <div className="forname">Piyush</div>
+            <div className='wrapper'>
+                <img src={image3} alt="" />
+                <div className="fornameid">
+                    <div className="forid">nfeknf</div>
+                    <div className="forname">Piyush</div>
+                </div>
             </div>
             <button className='folloBtn' >Follow</button>
         </div>
@@ -20,9 +24,9 @@ function Posts(props) {
             </div>
             <div className="ContentImage"><img src="" alt="" /></div>
             <div className="ImportantIcons">
-                <div className="cmnt">Comments</div>
-                <div className="react">Reacted</div>
-                <div className="Share">Share</div>
+                <div className="cmnt"><ChatBubbleIcon/></div>
+                <div className="react"><ThumbUpAltIcon/></div>
+                <div className="Share"><ShareIcon/></div>
             </div>
             <hr />
     </div>
