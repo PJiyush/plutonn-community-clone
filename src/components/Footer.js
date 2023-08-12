@@ -4,7 +4,8 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import PeopleRoundedIcon from '@mui/icons-material/PeopleRounded';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
-import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
+// import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
+import image2 from './images/pexels-min-an-1153334.jpg'
 function Footer(props) {
     const ImpLinks=[
         {"name":"Home", "pth":"/home", "icn":<HomeRoundedIcon />},

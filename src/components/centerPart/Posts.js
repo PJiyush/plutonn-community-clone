@@ -1,5 +1,6 @@
 import React from 'react'
-import image3 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-chloe-1043471.jpg'
+// import image3 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-chloe-1043471.jpg'
+import image3 from '../images/pexels-chloe-1043471.jpg'
 import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 import ShareIcon from '@mui/icons-material/Share';

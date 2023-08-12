@@ -9,7 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/' element={<CommunityPage/>} />
+        <Route exact path='/plutonn-community-clone' element={<CommunityPage/>} />
         <Route exact path='/home' element={<HomePage/>} />
         <Route exact path='/community' element={<CommunityPage/>} />
         <Route exact path='/searchPage' element={<SearchPage/>}/>

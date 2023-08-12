@@ -1,5 +1,6 @@
 import React from 'react'
-import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
+// import image2 from 'D:/Projects/cipherSchoolAssignment/plutonn-community-clone/community-page/src/assets/images/pexels-min-an-1153334.jpg'
+import image2 from '../images/pexels-min-an-1153334.jpg'
 import SendIcon from '@mui/icons-material/Send';
 function ProfileCard(props) {
   return (
