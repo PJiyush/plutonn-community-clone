@@ -1,5 +1,6 @@
 {
-  "name": "community-page",
+  "homepage": "https://PJiyush.github.io/plutonn-community-clone",
+  "name": "plutonn-community-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
