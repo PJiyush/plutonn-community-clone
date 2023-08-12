@@ -9,11 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path='/plutonn-community-clone' element={<CommunityPage/>} />
-        <Route exact path='/home' element={<HomePage/>} />
-        <Route exact path='/community' element={<CommunityPage/>} />
-        <Route exact path='/searchPage' element={<SearchPage/>}/>
-        <Route exact path='/courses' element={<SearchPage/>}/>
+        <Route path='/plutonn-community-clone' element={<CommunityPage/>} />
+        <Route path='/home' element={<HomePage/>} />
+        <Route path='/community' element={<CommunityPage/>} />
+        <Route path='/searchPage' element={<SearchPage/>}/>
+        <Route path='/courses' element={<SearchPage/>}/>
       </Routes>
     </BrowserRouter>
   );
