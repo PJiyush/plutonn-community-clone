@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/plutonn-community-clone/static/css/main.daac5180.css",
+    "main.js": "/plutonn-community-clone/static/js/main.c831be97.js",
+    "static/js/787.ad5d2ed2.chunk.js": "/plutonn-community-clone/static/js/787.ad5d2ed2.chunk.js",
+    "static/media/pexels-jacob-colvin-1761279.jpg": "/plutonn-community-clone/static/media/pexels-jacob-colvin-1761279.44d36990daf5a2665a3f.jpg",
+    "static/media/pexels-juan-gomez-2589650.jpg": "/plutonn-community-clone/static/media/pexels-juan-gomez-2589650.66e3f641e27a4133dc4e.jpg",
+    "static/media/pexels-chloe-1043471.jpg": "/plutonn-community-clone/static/media/pexels-chloe-1043471.8cfc2c35dcad318f4965.jpg",
+    "static/media/pexels-stein-egil-liland-3408744.jpg": "/plutonn-community-clone/static/media/pexels-stein-egil-liland-3408744.75d32f9bdd8d561a42e6.jpg",
+    "static/media/pexels-min-an-1153334.jpg": "/plutonn-community-clone/static/media/pexels-min-an-1153334.eb8434ad70de5890f6c2.jpg",
+    "index.html": "/plutonn-community-clone/index.html",
+    "main.daac5180.css.map": "/plutonn-community-clone/static/css/main.daac5180.css.map",
+    "main.c831be97.js.map": "/plutonn-community-clone/static/js/main.c831be97.js.map",
+    "787.ad5d2ed2.chunk.js.map": "/plutonn-community-clone/static/js/787.ad5d2ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daac5180.css",
+    "static/js/main.c831be97.js"
+  ]
+}
